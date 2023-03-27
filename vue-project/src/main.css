@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-image: linear-gradient(80deg, #110a7e, #070660);
+    
+    width: 100%;
+    max-height: 110px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+
+footer {
+    display: flex;
+    background: #2c70ff;
+    height: 100px;
+    align-items: center;
+    margin-top: 500px;
+}
+
+footer p {
+    flex: 1;
+    text-align: center;
+    font-size: 2.25em;
+    color: #122ab2;
+}
+
+.box-form{
+  background-color: rgb(113, 164, 220);
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: -100px;
+  border-radius:10px;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
+.form {
+  display: block;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 15px
+}
+
+.contact {
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.linkedin {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:#110a7e
+}
+
+.email {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#110a7e
+}
+
+.phone {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#110a7e
+}
